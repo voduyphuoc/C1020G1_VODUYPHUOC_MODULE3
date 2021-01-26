@@ -1,6 +1,6 @@
 package com.codegym.model;
 
-public class Customer {
+public class Product {
 //    id, tên sản phẩm, giá sản phẩm, mô tả của sản phẩm, nhà sản xuất.
     private int id;
     private String name;
@@ -8,10 +8,10 @@ public class Customer {
     private String description;
     private String producer;
 
-    public Customer() {
+    public Product() {
     }
 
-    public Customer(int id, String name, double price, String description, String producer) {
+    public Product(int id, String name, double price, String description, String producer) {
         this.id = id;
         this.name = name;
         this.price = price;

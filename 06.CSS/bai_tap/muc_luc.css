@@ -1,0 +1,37 @@
+p:hover {
+    color: blue;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #FFFFE0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.header {
+    font-size: 20px;
+    font-family: Cursive;
+    background-color: darkorange;
+    color: #58257b;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    width: 100%;
+    margin-top: -25px;
+    top: 0;
+}
