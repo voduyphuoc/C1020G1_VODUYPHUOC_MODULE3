@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Edit customer</title>
+    <title>Edit Product</title>
 </head>
 <body>
-<h1>Edit customer</h1>
+<h1>Edit product</h1>
 <p>
     <c:if test='${requestScope["message"] != null}'>
         <span class="message">${requestScope["message"]}</span>
@@ -26,23 +26,23 @@
         <table>
             <tr>
                 <td>Id: </td>
-                <td><input type="text" name="id" id="id" value="${requestScope["products"].getId()}"></td>
+                <td><input type="text" name="id" id="id" value="${requestScope["product"].getId()}"></td>
             </tr>
             <tr>
                 <td>Name: </td>
-                <td><input type="text" name="name" id="name" value="${requestScope["products"].getName()}"></td>
+                <td><input type="text" name="name" id="name" value="${requestScope["product"].getName()}"></td>
             </tr>
             <tr>
                 <td>Price: </td>
-                <td><input type="text" name="price" id="price" value="${requestScope["products"].getPrice()}"></td>
+                <td><input type="text" name="price" id="price" value="${requestScope["product"].getPrice()}"></td>
             </tr>
             <tr>
                 <td>Description : </td>
-                <td><input type="text" name="description" id="description" value="${requestScope["products"].getDescription}"></td>
+                <td><input type="text" name="description" id="description" value="${requestScope["product"].getDescription()}"></td>
             </tr>
             <tr>
                 <td>Producer</td>
-                <td><input type="text" name="producer" id="producer" value="${requestScope["products"].getProducer}"></td>
+                <td><input type="text" name="producer" id="producer" value="${requestScope["product"].getProducer()}"></td>
             </tr>
             <tr>
                 <td></td>

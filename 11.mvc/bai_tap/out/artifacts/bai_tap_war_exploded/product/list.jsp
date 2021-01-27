@@ -28,7 +28,7 @@
         <td>PRODUCER</td>
         <td colspan="2" align="center">CRUD</td>
     </tr>
-    <c:forEach items='${requestScope["products"]}' var="product">
+    <c:forEach items='${requestScope["product"]}' var="product">
         <tr>
             <td><a href="/product?action=view&id=${product.getId()}">${product.getId()}</a></td>
             <td>${product.getName()}</td>
