@@ -1,0 +1,1 @@
+SELECT * FROM thi.hocsinh_type;

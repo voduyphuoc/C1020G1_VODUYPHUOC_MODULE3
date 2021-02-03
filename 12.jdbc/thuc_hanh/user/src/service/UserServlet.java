@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet(name = "UserServlet", urlPatterns = "/users")
+@WebServlet(name = "UserServlet", urlPatterns = {"","/users"})
 public class UserServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private UserDAO userDAO;
@@ -58,8 +58,9 @@ public class UserServlet extends HttpServlet {
         String country = request.getParameter("country");
         User newUser = new User(name, email, country);
         userDAO.insertUser(newUser);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("user/create.jsp");
-        dispatcher.forward(request, response);
+//        RequestDispatcher dispatcher = request.getRequestDispatcher("user/create.jsp");
+//        dispatcher.forward(request, response);
+        request.getRequestDispatcher("user/create.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -67,7 +68,7 @@ public class UserServlet extends HttpServlet {
         if (action == null) {
             action = "";
         }
-
+        try {
         switch (action) {
             case "create":
                 showNewForm(request, response);
@@ -76,16 +77,25 @@ public class UserServlet extends HttpServlet {
                 showEditForm(request, response);
                 break;
             case "delete":
-                try {
                     deleteUser(request, response);
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+                break;
+            case "search":
+                searchUser(request,response);
                 break;
             default:
                 listUser(request, response);
                 break;
         }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void searchUser(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String country = request.getParameter("country");
+        List<User> userList = userDAO.findByCountry(country);
+        request.setAttribute("userList",userList);
+        request.getRequestDispatcher("user/search").forward(request,response);
     }
 
     private void deleteUser(HttpServletRequest request, HttpServletResponse response) throws SQLException, ServletException, IOException {

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="082f7b17-7994-4b9b-9c39-0dc435c76e1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/web/user/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/repository/CustomerRepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/repository/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/repository/CustomerTypeRepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/service/CustomerServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/service/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/src/customer/service/CustomerTypeServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/web/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_jsp&amp;servlet/Module3_AccountName_WBE/web/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/artifacts/user_war_exploded/WEB-INF/classes/repository/IUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/artifacts/user_war_exploded/WEB-INF/classes/repository/IUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/artifacts/user_war_exploded/WEB-INF/classes/repository/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/artifacts/user_war_exploded/WEB-INF/classes/repository/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/artifacts/user_war_exploded/WEB-INF/classes/service/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/artifacts/user_war_exploded/WEB-INF/classes/service/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/artifacts/user_war_exploded/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/artifacts/user_war_exploded/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/production/user/repository/IUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/production/user/repository/IUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/production/user/repository/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/production/user/repository/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/production/user/service/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/out/production/user/service/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/src/repository/IUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/src/repository/IUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/src/repository/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/src/repository/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/src/service/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/src/service/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/web/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../12.jdbc/thuc_hanh/user/web/user/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1nu8mNGxCkLUtuVWR3obq3a3fU3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="082f7b17-7994-4b9b-9c39-0dc435c76e1a" name="Default Changelist" comment="" />
+      <created>1612228772148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612228772148</updated>
+      <workItem from="1612228773750" duration="58000" />
+      <workItem from="1612228885244" duration="37000" />
+      <workItem from="1612229002039" duration="109000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612228916530">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1612228916530" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612229105211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612229105211" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1612229003095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1612229003095" />
+    <state x="65" y="0" key="new project wizard" timestamp="1612229107589">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1612229107589" />
+  </component>
+</project>
